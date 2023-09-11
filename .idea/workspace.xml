@@ -4,17 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8deee80-8b24-4760-8f45-f9e95b93bc8b" name="Changes" comment="" />
+    <list default="true" id="d8deee80-8b24-4760-8f45-f9e95b93bc8b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quiz_app/dao/DaoAnswers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quiz_app/dao/DaoAnswers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quiz_app/entity/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quiz_app/entity/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quiz_app/entity/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quiz_app/entity/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db_script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db_script.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/test_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/test_data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/quiz_app/DaoAnswersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/quiz_app/DaoAnswersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/quiz_app/DaoQuestionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/quiz_app/DaoQuestionTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2VGEY8SMtx2d3ecJGHD8og6TYrc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,10 +43,107 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.test in kn_quiz_app">
+    <configuration name="DaoAnswersTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kn_quiz_app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.quiz_app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.quiz_app" />
+      <option name="MAIN_CLASS_NAME" value="com.quiz_app.DaoAnswersTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DaoAnswersTest.addAnswer (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kn_quiz_app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.quiz_app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.quiz_app" />
+      <option name="MAIN_CLASS_NAME" value="com.quiz_app.DaoAnswersTest" />
+      <option name="METHOD_NAME" value="addAnswer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DaoAnswersTest.addAnswer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kn_quiz_app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.com.quiz_app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java.com.quiz_app" />
+      <option name="MAIN_CLASS_NAME" value="java.com.quiz_app.DaoAnswersTest" />
+      <option name="METHOD_NAME" value="addAnswer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DaoQuestionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kn_quiz_app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.quiz_app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.quiz_app" />
+      <option name="MAIN_CLASS_NAME" value="com.quiz_app.DaoQuestionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test in kn_quiz_app" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kn_quiz_app" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.test in kn_quiz_app" />
+        <item itemvalue="JUnit.DaoAnswersTest (1)" />
+        <item itemvalue="JUnit.DaoAnswersTest.addAnswer (1)" />
+        <item itemvalue="JUnit.DaoQuestionTest" />
+        <item itemvalue="JUnit.DaoAnswersTest.addAnswer" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,8 +152,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694454068574</updated>
-      <workItem from="1694454079345" duration="30000" />
+      <workItem from="1694454079345" duration="7941000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/com/quiz_app/DaoAnswersTest.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

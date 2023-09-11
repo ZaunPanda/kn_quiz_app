@@ -1,4 +1,4 @@
-package java.com.quiz_app;
+package com.quiz_app;
 
 import com.quiz_app.entity.Question;
 import com.quiz_app.entity.Answer;
@@ -23,6 +23,7 @@ class DaoAnswersTest {
     @BeforeEach
     public void ConnectionAndDataSetup() throws Exception {
         daoQuestion = new DaoQuestion();
+        daoAnswers = new DaoAnswers();
         testQuestions = new ArrayList<>();
 
         Question q2 = new Question(11, "math", 0, "2+2*2 =?");
@@ -81,10 +82,14 @@ class DaoAnswersTest {
     @Test
     void deleteAnswer() throws Exception {
         Question QuestionToUpdate = testQuestions.get(0);
+        System.out.println(QuestionToUpdate);
+        int answersAmount = QuestionToUpdate.getAnswers().size();
         Answer answerToDelete = QuestionToUpdate.getAnswers().get(0);
         daoAnswers.deleteAnswer(QuestionToUpdate.getQuestion_id(),answerToDelete.getText());
-        Answer DeletedAnswerFromDb = daoQuestion.getQuestion(QuestionToUpdate.getQuestion_id()).getAnswers().get(0);
+        Question DbQuestion = daoQuestion.getQuestion(QuestionToUpdate.getQuestion_id());
+        System.out.println(DbQuestion);
+        int newAnswerAmount = DbQuestion.getAnswers().size();
         daoAnswers.addAnswer(answerToDelete);
-        assertEquals(answerToDelete.toString(),DeletedAnswerFromDb.toString());
+        assertEquals(answersAmount-1,newAnswerAmount);
     }
 }

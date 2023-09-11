@@ -1,8 +1,7 @@
-package java.com.quiz_app;
+package com.quiz_app;
 
 import com.quiz_app.entity.Question;
 import com.quiz_app.entity.Answer;
-import com.quiz_app.dao.DaoAnswers;
 import com.quiz_app.dao.DaoQuestion;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -13,6 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 class DaoQuestionTest {
 
@@ -59,6 +59,8 @@ class DaoQuestionTest {
     void getQuestion() throws Exception {
         for (Question question : testQuestions) {
             Question DbReturtedQuestion = daoQuestion.getQuestion(question.getQuestion_id());
+            DbReturtedQuestion.sortAnswers();
+            question.sortAnswers();
             assertEquals(question.toString(), DbReturtedQuestion.toString());
 
 
@@ -111,7 +113,7 @@ class DaoQuestionTest {
         Question DbReturtedQuestion = daoQuestion.getQuestion(QuestionToDelete.getQuestion_id());
         String questionText = DbReturtedQuestion.getQuestion();
         daoQuestion.saveQuestion(QuestionToDelete);
-        assertEquals(null,questionText);
+        assertNull(questionText);
 
 
     }
